@@ -51,7 +51,9 @@ export default function SignUp() {
             Love Cricket?? <br />
             Join the community of cricket fans and get the latest updates on your favorite sport. <br />
             <br />
-            <span className='text-indigo-500 font-bold'>Sign up now!</span>
+            <Link to='/signin' className='text-indigo-500 font-bold'>
+              Sign Up Now!!
+            </Link>
           </p>
         </div>
         {/* right */}
