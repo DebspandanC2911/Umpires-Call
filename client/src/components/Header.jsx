@@ -55,9 +55,9 @@ export default function Header() {
         className='self-center whitespace-nowrap text-sm sm:text-xl font-semibold dark:text-white'
       >
         <span className='px-2 py-1 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-lg text-white'>
-          Sahand's
+          Umpire's
         </span>
-        Blog
+        Call1
       </Link>
       <form onSubmit={handleSubmit}>
         <TextInput
@@ -74,7 +74,7 @@ export default function Header() {
       </Button>
       <div className='flex gap-2 md:order-2'>
         <Button
-          className='w-12 h-10 hidden sm:inline'
+          className='w-15 h-15 hidden sm:inline'
           color='gray'
           pill
           onClick={() => dispatch(toggleTheme())}
@@ -82,11 +82,9 @@ export default function Header() {
           {theme === 'light' ? <FaSun /> : <FaMoon />}
         </Button>
         {currentUser ? (
-          <Dropdown
-            arrowIcon={false}
-            inline
+          <Dropdown arrowIcon={false} inline
             label={
-              <Avatar alt='user' img={currentUser.profilePicture} rounded />
+              <Avatar alt='user' img={currentUser.profilePicture} rounded/>
             }
           >
             <Dropdown.Header>
