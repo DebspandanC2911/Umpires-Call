@@ -56,7 +56,7 @@ export default function SignIn() {
             Love Cricket?? <br />
             Join the community of cricket fans and get the latest updates on your favorite sport. <br />
             <br />
-            <Link to='/signup' className='text-indigo-500 font-bold'>
+            <Link to='/sign-up' className='text-indigo-500 font-bold'>
               Sign Up Now!!
             </Link>
           </p>
@@ -64,7 +64,7 @@ export default function SignIn() {
         {/* right */}
 
         <div className='flex-1'>
-          <form className='flex flex-col gap-4' onSubmit={handleSubmit}>
+          <form className='flex flex-col gap-4 text-lg' onSubmit={handleSubmit}>
             <div>
               <Label value='Your email' />
               <TextInput
@@ -94,7 +94,7 @@ export default function SignIn() {
                   <span className='pl-3'>Loading...</span>
                 </>
               ) : (
-                'Sign Up'
+                'Log In'
               )}
             </Button>
           </form>
