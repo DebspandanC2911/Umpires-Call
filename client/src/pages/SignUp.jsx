@@ -29,7 +29,7 @@ export default function SignUp() {
       }
       setLoading(false);
       if(res.ok) {
-        navigate('/signin');
+        navigate('/sign-in');
       }
     } catch (error) {
       setErrorMessage(error.message);
@@ -43,7 +43,7 @@ export default function SignUp() {
         <div className='flex-1'>
           <Link to='/' className='font-bold dark:text-white text-4xl'>
             <span className='px-2 py-1 bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500 rounded-lg text-white'>
-              Umpire's
+              Umpire's 
             </span>
             Call
           </Link>
@@ -51,7 +51,7 @@ export default function SignUp() {
             Love Cricket?? <br />
             Join the community of cricket fans and get the latest updates on your favorite sport. <br />
             <br />
-            <Link to='/signin' className='text-indigo-500 font-bold'>
+            <Link to='/signup' className='text-indigo-500 font-bold'>
               Sign Up Now!!
             </Link>
           </p>
@@ -64,7 +64,7 @@ export default function SignUp() {
               <Label value='Your username' />
               <TextInput
                 type='text'
-                placeholder='What should we call you, Champ?'
+                placeholder='Username'
                 id='username'
                 onChange={handleChange}
               />
@@ -73,7 +73,7 @@ export default function SignUp() {
               <Label value='Your email' />
               <TextInput
                 type='email'
-                placeholder='mahi@dhoni.com'
+                placeholder='name@company.com'
                 id='email'
                 onChange={handleChange}
               />
@@ -82,7 +82,7 @@ export default function SignUp() {
               <Label value='Your password' />
               <TextInput
                 type='password'
-                placeholder='A password which can deceive like Steyn'
+                placeholder='Password'
                 id='password'
                 onChange={handleChange}
               />
@@ -103,8 +103,8 @@ export default function SignUp() {
             </Button>
           </form>
           <div className='flex gap-2 text-sm mt-5'>
-            <span>Have an account?</span> 
-            <Link to='/signin' className='text-blue-500'>
+            <span>Have an account?</span>
+            <Link to='/sign-in' className='text-blue-500'>
               Sign In
             </Link>
           </div>
