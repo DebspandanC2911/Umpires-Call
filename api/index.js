@@ -14,7 +14,7 @@ mongoose
   .connect(process.env.MONGO,{
     useNewUrlParser: true,
   useUnifiedTopology: true,
-  serverSelectionTimeoutMS: 30000, // Timeout after 30 seconds instead of 10
+  serverSelectionTimeoutMS: 50000, // Timeout after 30 seconds instead of 10
   socketTimeoutMS: 30000, // Close sockets after 30 seconds of inactivity
   })
   .then(() => {
