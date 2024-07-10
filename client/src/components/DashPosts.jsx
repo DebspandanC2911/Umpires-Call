@@ -138,7 +138,7 @@ export default function DashPosts() {
               onClick={handleShowMore}
               className='w-full text-teal-500 self-center text-sm py-7'
             >
-              Show more
+              Show More
             </button>
           )}
         </>
