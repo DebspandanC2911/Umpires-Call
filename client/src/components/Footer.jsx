@@ -29,7 +29,7 @@ export default function FooterCom() {
                   Debspandan
                 </Footer.Link>
                 <Footer.Link
-                  href='/about'
+                  href='#'
                   target='_blank'
                   rel='noopener noreferrer'
                 >
