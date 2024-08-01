@@ -135,6 +135,7 @@ export default function UpdatePost() {
             <option value='fielding'>Fielding</option>
             <option value='fairplay'>Fair Play</option>
             <option value='Teams'>Teams</option>
+            <option value='Tournaments'>Tournaments</option>
           </Select>
         </div>
         <div className='flex gap-4 items-center justify-between border-4 border-teal-500 border-dotted p-3'>

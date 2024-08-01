@@ -136,6 +136,7 @@ export default function Search() {
             <option value='fielding'>Fielding</option>
             <option value='fairplay'>Fair Play</option>
             <option value='Teams'>Teams</option>
+            <option value='Tournaments'>Tournaments</option>
             </Select>
           </div>
           <Button type='submit' outline gradientDuoTone='purpleToPink'>
