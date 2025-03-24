@@ -131,6 +131,7 @@ export default function Search() {
               id='category'
             >
             <option value='uncategorized'>Uncategorized</option>
+            <option value='ipl'>IPL</option>
             <option value='batting'>Batting</option>
             <option value='bowling'>Bowling</option>
             <option value='fielding'>Fielding</option>

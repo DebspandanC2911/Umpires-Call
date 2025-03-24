@@ -130,6 +130,7 @@ export default function UpdatePost() {
             value={formData.category}
           >
             <option value='uncategorized'>Select a tag</option>
+            <option value='ipl'>IPL</option>
             <option value='batting'>Batting</option>
             <option value='bowling'>Bowling</option>
             <option value='fielding'>Fielding</option>
